@@ -61,7 +61,7 @@ public class ValidacoesListaTests
         var resultado = _validacoes.MultiplicarNumerosLista(lista, 2);
 
         // Assert
-        resultado.ShouldBeSubsetOf(resultadoEsperado);
+        resultado.ShouldBe(resultadoEsperado);
     }
 
     [Fact]
